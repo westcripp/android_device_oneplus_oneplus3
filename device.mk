@@ -190,10 +190,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fs_config_files
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8996 \
@@ -314,6 +310,9 @@ PRODUCT_PACKAGES += \
     dhcpcd.conf \
     wpa_supplicant \
     wpa_supplicant.conf
+
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/hostapd.accept:system/etc/hostapd/hostapd.accept \
