@@ -36,6 +36,7 @@ qcom.bluetooth.soc=rome
 # Camera
 camera.disable_zsl_mode=1
 media.camera.ts.monotonic=false
+persist.camera.hal.debug=0
 
 # Display power reduction (FOSS)
 ro.qcom.dpps.sensortype=3
