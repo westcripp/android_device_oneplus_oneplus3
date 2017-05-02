@@ -181,6 +181,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OneplusDoze
 
+# Jelly
+PRODUCT_PACKAGES += \
+    Jelly
+
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
     fingerprintd \
