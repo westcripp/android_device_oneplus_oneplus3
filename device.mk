@@ -346,5 +346,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
 
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
