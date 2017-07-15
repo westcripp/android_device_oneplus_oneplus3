@@ -37,6 +37,8 @@ qcom.bluetooth.soc=rome
 persist.camera.imglib.fddsp=1
 persist.camera.llc=1
 persist.camera.llnoise=1
+camera.hal1.packagelist=com.oneplus.camera,com.google.android.GoogleCamera
+persist.camera.hal3.enabled=0
 
 # Display power reduction (FOSS)
 ro.qcom.dpps.sensortype=3
