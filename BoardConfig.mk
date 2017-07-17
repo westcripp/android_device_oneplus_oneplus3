@@ -77,7 +77,7 @@ TARGET_KERNEL_CONFIG := resurrected_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # UberTc Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-5.3/bin
+#KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-5.3/bin
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
